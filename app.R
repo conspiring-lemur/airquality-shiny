@@ -466,10 +466,5 @@ server <- function(input, output, session) {
   })
 }
 
-usethis::use_git_config(
-  user.name  = "conspiring-lemur",
-  user.email = "nathanielwilson.stats@gmail.com"
-)
-
 # ---- Run ----
 shinyApp(ui, server)
