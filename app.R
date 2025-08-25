@@ -465,6 +465,11 @@ server <- function(input, output, session) {
       theme_minimal(base_size = 12)
   })
 }
-C8653BDBF3642082
+
+usethis::use_git_config(
+  user.name  = "conspiring-lemur",
+  user.email = "nathanielwilson.stats@gmail.com"
+)
+
 # ---- Run ----
 shinyApp(ui, server)
